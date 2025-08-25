@@ -1,0 +1,8 @@
+{
+  "name": "voxel-game",
+  "main": "server.js",
+  "compatibility_date": "2025-08-25",
+  "assets": {
+    "directory": "./"
+  }
+}
