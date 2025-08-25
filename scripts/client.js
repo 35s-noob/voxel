@@ -1,4 +1,4 @@
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://fps-craft.vox-35sjp.workers.dev');
 export const otherPlayers = {};
 
 ws.onmessage = e => {
@@ -27,3 +27,4 @@ export function sendPlayerState(playerObj, camera){
     weapon:playerObj.player.weapon
   }));
 }
+
