@@ -1,8 +1,3 @@
-{
-  "name": "voxel-game",
-  "main": "server.js",
-  "compatibility_date": "2025-08-25",
-  "assets": {
-    "directory": "./"
-  }
-}
+name = "fps-multiplayer"
+main = "worker.js"
+compatibility_date = "2025-08-25"
